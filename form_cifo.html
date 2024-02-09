@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form_cifo.css">
+</head>
+
+<body>
+    <form>
+        <h2>Datos de contacto</h2>
+        <div class="contenedor">
+
+            <div class="col_33">
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+            </div>
+
+            <div class="col_33">
+                <label for="apellido">Primer apellido</label>
+                <input type="text" id="apellido">
+            </div>
+
+            <div class="col_33">
+                <label for="segundo-apellido">Segundo apellido</label>
+                <input type="text" id="segundo-apellido">
+            </div>
+        </div>
+
+        <div>
+            <div class="col_100">
+                <label for="email">Correo electrónico * </label>
+                <input type="email" id="email">
+            </div>
+        </div>
+
+
+        <div class="contenedor">
+
+            <div class="col_50">
+                <label for="documento">Tipo de documento de personal* </label>
+                <select id="documento">
+                    <option value="S">[selecciona]</option>
+                    <option value="D">Nif de empresa</option>
+                    <option value="F">DNI</option>
+                    <option value="N">NIE</option>
+                    <option value="N">Pasaporte</option>
+                    <option value="N">Documento de identidad extranjero</option>
+                    <option value="N">Documento de empresa extranjera</option>
+                </select>
+            </div>
+
+            <div class="col_50">
+                <label for="numero_docu"> Número de documento*</label>
+                <input type="text" id="numero_docu">
+            </div>
+        </div>
+
+        <div>
+            <div class="col_100">
+                <label for="razon">RazónSocial  </label>
+                <input type="text" id="razon">
+                <p>Si esta gestión esta relacionada con una empresa, puede informar la razón social
+                    y el documento identificativo correspondiente.</p>
+            </div>
+        </div>
+
+        <div class="contenedor">
+
+            <div class="col_50">
+                <label for="docu-empresa">Documento de identidad de empresa </label>
+                <select id="docu-empresa">
+                    <option value="S">[selecciona]</option>
+                    <option value="D">Nif de empresa</option>
+                    <option value="F">DNI</option>
+                    <option value="N">NIE</option>
+                    <option value="N">Pasaporte</option>
+                    <option value="N">Documento de identidad extranjero</option>
+                    <option value="N">Documento de empresa extranjera</option>
+                </select>
+            </div>
+
+            <div class="col_50">
+                <label for="numero_docu"> Número de documento</label>
+                <input type="text" id="numero_docu">
+            </div>
+        </div>
+
+        <div class="contenedor">
+
+            <div class="col_50">
+                <label for="tipo_via">Tipo de via </label>
+                <select id="tipo_via">
+                    <option value="S">[selecciona]</option>
+                    <option value="C">Calle</option>
+                    <option value="A">Avenida</option>
+                    <option value="P">Pasaje</option>
+                    <option value="R">Rambla</option>
+                    <option value="P">Ronda</option>
+                    <option value="P">Plaza</option>
+                    <option value="P">Paseo</option>
+                    <option value="P">Travessera</option>
+                </select>
+            </div>
+
+            <div class="col_50">
+                <label for="via"> Nombre de la vía</label>
+                <input type="text" id="via">
+            </div>
+        </div>
+
+        <div class="contenedor">
+
+            <div class="col_20">
+                <label for="numero">Número</label>
+                <input type="text" id="numero">
+            </div>
+
+            <div class="col_20">
+                <label for="edi">Edificio</label>
+                <input type="text" id="edi">
+            </div>
+
+            <div class="col_20">
+                <label for="esc">Escalera</label>
+                <input type="text" id="esc">
+            </div>
+
+            <div class="col_20">
+                <label for="piso">Piso</label>
+                <input type="text" id="piso">
+            </div>
+
+            <div class="col_20">
+                <label for="puerta">Puerta</label>
+                <input type="text" id="puerta">
+            </div>
+        </div>
+
+        <div class="contenedor">
+
+            <div class="col_50">
+                <label for="muni">Municipio </label>
+                <input type="text" id="muni">
+            </div>
+
+            <div class="col_50">
+                <label for="codigo"> Código Postal</label>
+                <input type="text" id="codigo">
+            </div>
+        </div>
+
+        <div class="contenedor">
+
+            <div class="col_50">
+                <label for="comarca">Comarca </label>
+                <select id="comarca">
+                    <option value="S">[selecciona]</option>
+                    <option value="B">Barcelona</option>
+                    <option value="M">Maresme</option>
+                    <option value="C">Cerdanya</option>
+                    <option value="G">Garraf</option>
+                    <option value="V">Vallés</option>
+                </select>
+            </div>
+
+            <div class="col_50">
+                <label for="nombre"> Provincia</label>
+                <input type="text" id="nombre">
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <div class="col_70">
+                <label for="pais">País </label>
+                <select id="pais">
+                    <option value="S">[selecciona]</option>
+                    <option value="E">España</option>
+                    <option value="F">Francia</option>
+                    <option value="A">Alemania</option>
+                    <option value="I">Italia</option>
+                    <option value="B">Bélgica</option>
+                </select>
+                </div>
+                </div>
+                
+
+                <div class="contenedor">
+
+                    <div class="col_33">
+                        <label for="telefono">Télefono</label>
+                        <input type="text" id="telefono">
+                    </div>
+        
+                    <div class="col_33">
+                        <label for="horas">Contacta desde</label>
+                        <input type="time"  id="horas"> 
+                            
+                    </div>
+        
+                    <div class="col_33">
+                        <label for="horario">Hasta</label>
+                        <input type="time" id="horas">  
+                    </div>
+                </div>
+
+    </form>
+
+</body>
+
+</html>
